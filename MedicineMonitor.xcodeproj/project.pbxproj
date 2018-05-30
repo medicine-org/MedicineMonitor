@@ -10,6 +10,11 @@
 		B40A2B3ACECEF5A0A1EC4B0B /* Pods_MedicineMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA301DE7D3075DA752E14591 /* Pods_MedicineMonitor.framework */; };
 		BB2ACAA10E20479C4EECD324 /* Pods_MedicineMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454C3BF181DAF541C369B03E /* Pods_MedicineMonitorUITests.framework */; };
 		DD09B326AA943C6208272F1F /* Pods_MedicineMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927B1E8C3DE3EA5CF36BC790 /* Pods_MedicineMonitorTests.framework */; };
+		F886F16420841A9F00407FE6 /* TakeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886F16320841A9F00407FE6 /* TakeVideoViewController.swift */; };
+		F886F166208431B400407FE6 /* MedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886F165208431B400407FE6 /* MedicationViewController.swift */; };
+		F886F169208432C500407FE6 /* MedicationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886F168208432C500407FE6 /* MedicationCell.swift */; };
+		F89A4D7D209BF10C005E2A04 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89A4D7C209BF10C005E2A04 /* ChangePasswordViewController.swift */; };
+		F89A4D7F209BF256005E2A04 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89A4D7E209BF256005E2A04 /* MenuViewController.swift */; };
 		F8F871EA20750CBB000DF98C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F871E920750CBB000DF98C /* AppDelegate.swift */; };
 		F8F871EF20750CBB000DF98C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F871ED20750CBB000DF98C /* Main.storyboard */; };
 		F8F871F120750CBE000DF98C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F871F020750CBE000DF98C /* Assets.xcassets */; };
@@ -17,6 +22,8 @@
 		F8F871FF20750CBE000DF98C /* MedicineMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F871FE20750CBE000DF98C /* MedicineMonitorTests.swift */; };
 		F8F8720A20750CBE000DF98C /* MedicineMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F8720920750CBE000DF98C /* MedicineMonitorUITests.swift */; };
 		F8F8721820750F36000DF98C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F8721720750F36000DF98C /* LoginViewController.swift */; };
+		F8F8721A207DA107000DF98C /* MedicineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F87219207DA107000DF98C /* MedicineCell.swift */; };
+		F8F8721C207DA142000DF98C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F8721B207DA142000DF98C /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,11 @@
 		AE80B856672D5989BC9B93DF /* Pods-MedicineMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineMonitorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicineMonitorUITests/Pods-MedicineMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4333305F9FF5B705800EBFD /* Pods-MedicineMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineMonitorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicineMonitorTests/Pods-MedicineMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA301DE7D3075DA752E14591 /* Pods_MedicineMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicineMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F886F16320841A9F00407FE6 /* TakeVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeVideoViewController.swift; sourceTree = "<group>"; };
+		F886F165208431B400407FE6 /* MedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewController.swift; sourceTree = "<group>"; };
+		F886F168208432C500407FE6 /* MedicationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationCell.swift; sourceTree = "<group>"; };
+		F89A4D7C209BF10C005E2A04 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		F89A4D7E209BF256005E2A04 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		F8F871E620750CBB000DF98C /* MedicineMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicineMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F871E920750CBB000DF98C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8F871EE20750CBB000DF98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +71,8 @@
 		F8F8720920750CBE000DF98C /* MedicineMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineMonitorUITests.swift; sourceTree = "<group>"; };
 		F8F8720B20750CBE000DF98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8F8721720750F36000DF98C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F8F87219207DA107000DF98C /* MedicineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineCell.swift; sourceTree = "<group>"; };
+		F8F8721B207DA142000DF98C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +126,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F886F167208431BE00407FE6 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8F8721720750F36000DF98C /* LoginViewController.swift */,
+				F8F8721B207DA142000DF98C /* HomeViewController.swift */,
+				F886F165208431B400407FE6 /* MedicationViewController.swift */,
+				F886F16320841A9F00407FE6 /* TakeVideoViewController.swift */,
+				F89A4D7C209BF10C005E2A04 /* ChangePasswordViewController.swift */,
+				F89A4D7E209BF256005E2A04 /* MenuViewController.swift */,
+			);
+			path = "view controllers";
+			sourceTree = "<group>";
+		};
 		F8F871DD20750CBB000DF98C = {
 			isa = PBXGroup;
 			children = (
@@ -137,12 +164,14 @@
 		F8F871E820750CBB000DF98C /* MedicineMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				F886F167208431BE00407FE6 /* view controllers */,
 				F8F871E920750CBB000DF98C /* AppDelegate.swift */,
 				F8F871ED20750CBB000DF98C /* Main.storyboard */,
 				F8F871F020750CBE000DF98C /* Assets.xcassets */,
 				F8F871F220750CBE000DF98C /* LaunchScreen.storyboard */,
 				F8F871F520750CBE000DF98C /* Info.plist */,
-				F8F8721720750F36000DF98C /* LoginViewController.swift */,
+				F8F87219207DA107000DF98C /* MedicineCell.swift */,
+				F886F168208432C500407FE6 /* MedicationCell.swift */,
 			);
 			path = MedicineMonitor;
 			sourceTree = "<group>";
@@ -460,7 +489,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8F8721820750F36000DF98C /* LoginViewController.swift in Sources */,
+				F89A4D7D209BF10C005E2A04 /* ChangePasswordViewController.swift in Sources */,
+				F886F169208432C500407FE6 /* MedicationCell.swift in Sources */,
 				F8F871EA20750CBB000DF98C /* AppDelegate.swift in Sources */,
+				F89A4D7F209BF256005E2A04 /* MenuViewController.swift in Sources */,
+				F8F8721A207DA107000DF98C /* MedicineCell.swift in Sources */,
+				F886F166208431B400407FE6 /* MedicationViewController.swift in Sources */,
+				F8F8721C207DA142000DF98C /* HomeViewController.swift in Sources */,
+				F886F16420841A9F00407FE6 /* TakeVideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,7 +673,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JTJHCFQH8;
 				INFOPLIST_FILE = MedicineMonitor/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = student.howard.MedicineMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -653,7 +692,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JTJHCFQH8;
 				INFOPLIST_FILE = MedicineMonitor/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = student.howard.MedicineMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -670,7 +712,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JTJHCFQH8;
 				INFOPLIST_FILE = MedicineMonitorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = student.howard.MedicineMonitorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -688,7 +734,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JTJHCFQH8;
 				INFOPLIST_FILE = MedicineMonitorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = student.howard.MedicineMonitorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -705,7 +755,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JTJHCFQH8;
 				INFOPLIST_FILE = MedicineMonitorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = student.howard.MedicineMonitorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -722,7 +776,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JTJHCFQH8;
 				INFOPLIST_FILE = MedicineMonitorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = student.howard.MedicineMonitorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
